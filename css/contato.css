@@ -1,0 +1,31 @@
+
+.contato{
+    /* background-color: black;
+    border-radius: 15px;
+    padding: 10px; */
+    display: inline-block;
+}
+.contato{
+    text-decoration: none;
+    color: black;
+}
+header{
+        text-align: center;
+}
+.informacoes{
+    padding-left: 37rem;
+}
+.redes{
+    margin-right: 600px;
+    padding-top: 30px;
+    padding: 10px;
+}
+.redes img{
+    width: 55px;
+    height: 55px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 60px;
+}

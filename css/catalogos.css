@@ -1,0 +1,24 @@
+.titulo-catalogos{
+    /* background-color: black;
+    border-radius: 15px;
+    padding: 10px; */
+    display: inline-block;
+}
+.titulo-catalogos{
+    text-decoration: none;
+    color: black;
+}
+header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 1rem;
+}
+.voltar{
+    text-decoration: none;
+    color: grey;
+    padding: 0.2rem;
+}
+.voltar:hover{
+    color: black;
+}

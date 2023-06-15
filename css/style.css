@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock&family=Overlock+SC&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Overlock;
+}
+.site{
+    display: grid;
+    grid-template-columns: 2.5fr 2.5fr 1fr ;  
+    grid-template-rows: 100vh;
+    align-items: center;
+}
+.container-cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 1rem;
+}
+header{
+    position: relative;
+}
+header img{
+    width: 60px;
+    align-items: center;    
+}
+h1{
+    font-family: Overlock SC;
+    padding-right: 10rem;
+}
+.container-cabecalho a{
+    text-decoration: none;
+    color: grey;
+    padding: 0.2rem;
+}
+.container-cabecalho a:hover{
+    color: black;
+}
+nav{
+    padding-left: 10rem;
+}
+.site{
+    position: absolute;
+    top: 1rem;
+    z-index: -1;
+}
+.site img{
+    width: 550px;
+    height: 550px;
+}
+.amostra a{
+    font-size: 2.6rem;
+   margin-left: 60px;
+}
+.info{
+    align-items: center;
+}
+.info h2{
+    text-align: center;
+}
+.info p{
+    text-align: justify;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+.catalogos{
+    background-color: black;
+    border-radius: 15px;
+    padding: 10px;
+}
+.catalogos{
+    text-decoration: none;
+    color: white;
+}
+.catalogos:hover{
+    background-color:#000000a9;
+    border-radius: 15px;
+    padding: 10px;
+}
+.catalogos:hover{
+    text-decoration: none;
+    color: black;
+}
+.promocoes{
+    background-color:#D9D9D9;
+    border-radius: 15px;
+    padding: 10px;
+}
+.promocoes{
+    text-decoration: none;
+    color: black;
+}
+.promocoes:hover{
+    background-color: grey;
+    border-radius: 15px;
+    padding: 10px;
+}
+.promocoes:hover{
+    text-decoration: none;
+    color: white;
+}
+.revenda img{
+    width: 150px;
+    height: 150px;
+}
+.revenda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5rem;
+}
+.revenda a{
+    padding: 8px;
+}
+.voltar{
+    text-transform: uppercase;
+    margin-right: 40px;
+}

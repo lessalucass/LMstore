@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/carrossel.css">
+    <link rel="stylesheet" href="css/catalogos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Catálogos lm Store</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo-catalogos">Catálogos</h1>
+        <img src="img/logo principal.png" alt="logo">
+        <nav>
+          <a href="index.html" class="voltar">Voltar</a>
+        </nav>
+      </header>
+      </section>
+    <section class="carousel">
+        <input type="radio" name="carousel" id="carousel1" checked="checked" />
+        <input type="radio" name="carousel" id="carousel2" />
+        <input type="radio" name="carousel" id="carousel3" />
+        <input type="radio" name="carousel" id="carousel4" />
+
+        <main class="carousel__stage">
+            <aside class="carousel__item">
+                <img id="carrousel__img" class="carousel__image" src="img/Catálogos natura.png" />
+                <label for="carousel2" class="carousel__next carousel__control"></label>
+            </aside>
+
+            <aside class="carousel__item">
+                <label for="carousel1" class="carousel__prev carousel__control"></label>
+                <img class="carousel__image" src="img/Catálogos oBoticário.png" />
+                <label for="carousel3" class="carousel__next carousel__control"></label>
+            </aside>
+
+            <aside class="carousel__item">
+                <label for="carousel2" class="carousel__prev carousel__control"></label>
+                <img class="carousel__image" src="img/sorvete.png" />
+                <label for="carousel4" class="carousel__next carousel__control"></label>
+            </aside>
+
+            <aside class="carousel__item">
+                <label for="carousel3" class="carousel__prev carousel__control"></label>
+                <img class="carousel__image" src="img/suco_verde_1.jpg" />
+            </aside>
+        </main>
+    </section>
+</body>
+</html>

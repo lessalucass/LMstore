@@ -1,0 +1,26 @@
+.voltar{
+    text-decoration: none;
+    color: grey;
+    padding: 0.2rem;
+}
+.voltar:hover{
+    color: black;
+}
+img{
+    text-align: center;
+    align-items: center;
+}
+.opcoes a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-top: 30px;
+    margin: 80px;
+}
+.opcoes a:hover{
+    color: grey
+}
+.conteudo{
+    text-align: center;
+    align-items: center;
+}
